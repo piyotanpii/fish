@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #0f0f0f;
+    /* ページの背景色を変更 */
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    /* タイトルのテキスト色を変更 */
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* テキストに影を追加 */
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* キャンバスを背面に配置 */
+}
